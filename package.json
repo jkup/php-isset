@@ -1,0 +1,25 @@
+{
+  "name": "php-isset",
+  "version": "0.0.1",
+  "description": "A node method similar to PHP's isset",
+  "main": "isset.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jkup/php-isset.git"
+  },
+  "keywords": [
+    "isset",
+    "nullsafe",
+    "object",
+    "php"
+  ],
+  "author": "Jon Kuperman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jkup/php-isset/issues"
+  },
+  "homepage": "https://github.com/jkup/php-isset",
+  "dependencies": {
+    "harmony-reflect": "^1.1.1"
+  }
+}
