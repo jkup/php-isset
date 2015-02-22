@@ -39,7 +39,7 @@ In your application:
 ```js
 var Obj = require('php-isset');
 
-var test = Object.create(Obj.nullProxy);
+var test = Object.create(Obj.isset);
 
 console.log(test.foo.bar.baz);
 
