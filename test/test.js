@@ -1,5 +1,5 @@
 var Obj = require('../isset.js');
 
-var test = Object.create(Obj.nullProxy);
+var test = Object.create(Obj.isset);
 
-console.log(test.foo.bar.baz);
+console.log(test.foo.bar);

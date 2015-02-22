@@ -18,8 +18,5 @@
   "bugs": {
     "url": "https://github.com/jkup/php-isset/issues"
   },
-  "homepage": "https://github.com/jkup/php-isset",
-  "dependencies": {
-    "harmony-reflect": "^1.1.1"
-  }
+  "homepage": "https://github.com/jkup/php-isset"
 }

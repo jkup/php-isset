@@ -1,13 +1,12 @@
-/* run with node --harmony_proxies isset.js */
 var Obj = Function();
 
-var nullProxy = Proxy.create({
-  get: function(proxy, name) {
-    return new Obj();
+var isset = Proxy.create({
+  get: function(target, name) {
+      return target[name] || new Obj();
   }
 });
 
-Obj.prototype = nullProxy;
+Obj.prototype = isset;
 
-exports.nullProxy = nullProxy;
+exports.isset = isset;
 exports.Obj = Obj;
